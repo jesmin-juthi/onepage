@@ -1,0 +1,490 @@
+default css start */ * {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* default css end */
+
+/* header css start */
+.navbar-brand {
+    font-weight: 800;
+}
+
+.nav-link {
+    font-size: 14px;
+    padding: 10px 15px !important;
+    color: rgba(0, 0, 0, .7) !important;
+}
+
+.active {
+    color: #ec1e64 !important;
+}
+
+.nav-link:hover {
+    color: #ec1e64 !important;
+}
+
+.hero-heading h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 14px;
+}
+
+.custom-list li a {
+    color: #ec1e64;
+    font-size: 14px;
+    transition: .3s all ease;
+}
+
+.custom-list li a:hover {
+    text-decoration: none;
+}
+
+/* header css end */
+/* service css start */
+.service {
+    background: #f8f9fa;
+    padding-top: 100px;
+}
+
+.service .btn-custom,
+.process .btn-custom,
+.contact-form .btn-custom {
+    background: #ec1e64;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 0;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.service .btn-custom:hover,
+.process .btn-custom:hover,
+.contact-form .btn-custom:hover {
+    background-color: #fff;
+    color: #ec1e64;
+    -webkit-box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+}
+
+.service-title,
+.process-title,
+.clients-title,
+.features-title,
+.office-title,
+.contact-title {
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 100px;
+}
+
+.service-title::before,
+.process-title::before,
+.clients-title::before,
+.features-title::before,
+.office-title::before,
+.contact-title::before {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: #ec1e64;
+    position: absolute;
+    top: 28px;
+    left: 0;
+}
+
+.service-text,
+.process-text,
+.clients-text,
+.features-text {
+    font-size: 14px;
+}
+
+/* service css end */
+
+/* card box css start */
+.card-box {
+    background: #f8f9fa;
+    padding-bottom: 100px;
+}
+
+.card-box .card {
+    border: none;
+    background: transparent;
+}
+
+.card-box .card img {
+    transition: .3s all ease;
+}
+
+.card-box .card img:hover {
+    box-shadow: 15px 15px 0 0 #ec1e64;
+}
+
+.card-box .card-body {
+    padding-left: 0;
+    background: transparent;
+    transition: .3s all ease;
+}
+
+.card-box .card-title a {
+    color: #ec1e64;
+}
+
+.card-box .card-title a:hover {
+    text-decoration: none;
+}
+
+/* card box css end */
+
+/* process css start */
+.muted {
+    color: #888;
+    margin-left: 25px;
+    font-size: 14px;
+    transition: .3s all ease;
+}
+
+.muted:hover {
+    color: #ec1e64;
+    text-decoration: none;
+}
+
+.card-header {
+    background: transparent;
+}
+
+.icons {
+    border: 3px solid #efefef;
+    margin-left: 10px;
+    margin-bottom: 35px;
+    transition: .3s all ease;
+}
+
+
+
+.icon-card .card {
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border: 0;
+}
+
+.icons .card-header {
+    font-size: 12px;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.icons .card-title {
+    color: #ec1e64;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.icons .card-text {
+    font-size: 14px;
+}
+
+.single {
+    border: 3px solid #ec1e64;
+}
+
+.icons:hover {
+    border: 3px solid #ec1e64;
+}
+
+/* process css end */
+
+/* clients css start */
+.clients {
+    background: #1d1d1d;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.client-box img {
+    max-width: 35%;
+    margin-bottom: 25px;
+}
+
+.client-box .card {
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.client-box .card-title {
+    font-size: 18px;
+    color: #ec1e64;
+    font-weight: 700;
+}
+
+.client-box .card-text {
+    color: #222;
+    font-size: 14px;
+}
+
+/* clients css end */
+
+/* features css start */
+.features {
+    background: #f8f9fa;
+    padding: 100px;
+}
+
+.feature-box {}
+
+.feature-box span {
+    display: block;
+    margin-bottom: 15px;
+    color: #ec1e64;
+}
+
+.feature-box span::before {
+    font-size: 80px;
+    margin-left: 0;
+}
+
+.feature-box a {
+    color: #ec1e64;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: .3s all ease;
+}
+
+.feature-box a:hover {
+    text-decoration: none;
+}
+
+.feature-box p {
+    font-size: 14px;
+    width: 80%;
+}
+
+.custom-m {
+    margin-left: 100px;
+}
+
+/* features css end */
+
+/* office css start */
+.office-content {}
+
+.office-content h2 {
+    color: #252837;
+    font-weight: 700;
+}
+
+.office-content p {}
+
+/* office css end */
+
+/* team css start */
+.team {}
+
+.team h2 {
+    font-weight: 700;
+    color: #252837;
+}
+
+.team-content {
+    padding: 10px;
+}
+
+.team-content .card {
+    border: none;
+}
+
+.team-content .card-body .card-title {
+    color: #ec1e64;
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: .3s all ease;
+}
+
+.team-content .card-body .card-title:hover {
+    text-decoration: none;
+}
+
+.team-content .card-body .work {
+    color: rgba(0, 0, 0, .5);
+}
+
+.team-content .card-body .description {
+    font-size: 14px;
+}
+
+.team-content .card-body .social-icons {}
+
+.team-content .card-body .social-icons i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #ec1e64;
+    color: #ec1e64;
+    line-height: 40px;
+    text-align: center;
+    transition: .3s all ease;
+}
+
+.team-content .card-body .social-icons i:hover {
+    background: #ec1e64;
+    color: #fff;
+}
+
+.team-content .card img {
+    transition: .3s all ease-in-out;
+}
+
+.team-content .card img:hover {
+    box-shadow: 15px 15px #ec1e64;
+}
+
+/* team css end */
+
+/* form css start */
+
+/* bootstrap input focus remove */
+.contact-form input:focus,
+.contact-form input:active:focus,
+.contact-form input.active:focus,
+.contact-form input.focus,
+.contact-form input:active.focus,
+.contact-form input.active.focus,
+.contact-form textarea:focus,
+.contact-form textarea:active.focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    border: none;
+    outline: 2px solid #ec1e64 !important;
+}
+
+.icon-content {
+    margin-left: 30px;
+}
+
+.icon-content i {
+    font-size: 26px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #f8f9fa;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.icon-content address {
+    width: 50%;
+    font-size: 22px;
+}
+
+/* form css end  */
+
+/* footer css start */
+footer {
+    background: #f8f9fa;
+    padding-top: 100px;
+}
+
+.about-footer {
+    color: #888;
+}
+
+.about-footer i {
+    background: #ec1e64;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+
+footer h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.link li i {
+    color: #999;
+    margin-right: 10px;
+}
+
+.link li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 6px;
+    display: inline-block;
+    transition: .3s all ease;
+}
+
+.link li a:hover {
+    color: #000;
+}
+
+.fbl {
+    text-align: right;
+}
+
+.fbl li a {
+    text-decoration: none;
+    color: #999;
+    transition: .3s all ease;
+}
+
+.fbl li a:hover {
+    color: #000;
+}
+
+/* footer css end */
+
+/* media query [responsive part] */
+
+@media screen and (max-width: 768px) {
+    .custom-m {
+        margin-left: 0px;
+    }
+
+    .features {
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .features-title {
+        font-size: 60px;
+    }
+
+    .features-text {
+        text-align: center;
+        margin: auto;
+    }
+}
